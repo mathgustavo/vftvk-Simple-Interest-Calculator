@@ -12,8 +12,27 @@ h1 {
 .maindiv {
 	background-color: white;
 	color: black;
-	width: 300px;
+	width: 480px; /* changed from 300px to fit visual specification */
 	padding: 20px;
 	border-radius: 25px;
 	align: center;
+}
+
+/* reference for the four elements below */
+/* https://stackoverflow.com/questions/4309950/how-to-align-input-forms-in-html */
+form {
+	display: table;
+}
+
+p {
+	display: table-row;
+	line-height: 200%;
+}
+
+label {
+	display: table-cell;
+}
+
+input {
+	display: table-cell;
 }
